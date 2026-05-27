@@ -49,8 +49,8 @@ public class NewPurchaseTest extends BaseClass {
 				logger.info("Selected Item Type" + excelp.getStringdata("Purchase", i, 1));
 				logger.info("Selected Item " + excelp.getStringdata("Purchase", i, 2));
 				logger.info("Selected Item Price " + excelp.getCurrencyData("Purchase", i, 3));
-
 				boolean result = purchase.newPurchasing(excelp.getStringdata("Purchase", i, 4));
+				//boolean result = purchase.newPurchasing(excelp.getStringdata("Purchase", i, 4));
 				Assert.assertEquals(result, true, "Item Not Found");
 				purchase.clickShopCart();
 
@@ -64,8 +64,9 @@ public class NewPurchaseTest extends BaseClass {
 				logger.info("Selected Item Type" + excelp.getStringdata("Purchase", i, 1));
 				logger.info("Selected Item " + excelp.getStringdata("Purchase", i, 2));
 				logger.info("Selected Item Price " + excelp.getCurrencyData("Purchase", i, 3));
-
-				boolean result = purchase.DeletePurchasing(excelp.getStringdata("Purchase", i, 4));
+				System.out.println("Bb");
+				boolean result =purchase.DeletePurchasing(excelp.getStringdata("Purchase", i, 4));
+				//boolean result = purchase.DeletePurchasing(excelp.getStringdata("Purchase", i, 4));
 				Assert.assertEquals(result, true, "Item was not removed from purchasing successfully.");
 				boolean resultshopcart = shopcart.verifyRemoveItemInCart(excelp.getStringdata("Purchase", i, 4));
 				Assert.assertEquals(resultshopcart, true, "Item was not removed from cart successfully.");
