@@ -42,7 +42,7 @@ public class NewPurchaseTest extends BaseClass {
 	@Test(priority = 1)
 	public void newPurchasing() {
 
-		for (int i = 1; i <= 5; i++) {
+		for (int i = 1; i <= 6; i++) {
 			if (excelp.getStringdata("Purchase", i, 1).trim().equals("Add Item")) {
 
 				logger = report.createTest(excelp.getStringdata("Purchase", i, 0));
@@ -64,10 +64,13 @@ public class NewPurchaseTest extends BaseClass {
 				logger.info("Selected Item Type" + excelp.getStringdata("Purchase", i, 1));
 				logger.info("Selected Item " + excelp.getStringdata("Purchase", i, 2));
 				logger.info("Selected Item Price " + excelp.getCurrencyData("Purchase", i, 3));
-				System.out.println("Bb");
+				
 				boolean result =purchase.DeletePurchasing(excelp.getStringdata("Purchase", i, 4));
 				//boolean result = purchase.DeletePurchasing(excelp.getStringdata("Purchase", i, 4));
 				Assert.assertEquals(result, true, "Item was not removed from purchasing successfully.");
+				
+				purchase.clickShopCart();
+				shopcart = PageFactory.initElements(driver, ShopCartpage.class);
 				boolean resultshopcart = shopcart.verifyRemoveItemInCart(excelp.getStringdata("Purchase", i, 4));
 				Assert.assertEquals(resultshopcart, true, "Item was not removed from cart successfully.");
 				driver.navigate().back();

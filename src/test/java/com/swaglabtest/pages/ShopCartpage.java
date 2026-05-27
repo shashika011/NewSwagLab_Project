@@ -104,19 +104,20 @@ public class ShopCartpage {
 	    try {
 	        Map<String, ItemCart> cartItems = getShopCartItemsMap();
 	        ItemCart itemCart = cartItems.get(itemName);
+	       
 
 	        if (itemCart == null) {
-	            return true; // not even in map = already removed
+	        	return true;// not even in map = already removed
 	        }
 
 	        WebElement itemElement = wait.until(
-	            ExpectedConditions.presenceOfElementLocated(itemCart.getName())
-	        );
-
-	        return !itemElement.isDisplayed();
+	            ExpectedConditions.visibilityOfElementLocated(itemCart.getName()));
+			
+	        return false;
 
 	    } catch (TimeoutException | NoSuchElementException e) {
 	        // element not found = successfully removed
+	    	System.out.println("Bb");
 	        return true;
 	    }
 	}
