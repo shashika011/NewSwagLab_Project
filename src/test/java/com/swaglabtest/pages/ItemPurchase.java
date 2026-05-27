@@ -228,12 +228,13 @@ public class ItemPurchase {
 		for (WebElement element : elements) {
 			listname.add(element.getText());
 		}
-		List<String> itemlist2 = new ArrayList<String>(listname);
-		Collections.sort(itemlist2.reversed());
-		for (int i = 0; i <= itemlist2.size() - 1; i++) {
-			System.out.println("Sorted List: " + itemlist2.get(i));
+		List<String> itemlistNew = new ArrayList<String>(listname);
+		Collections.sort(itemlistNew.reversed());
+		
+		for (int i = 0; i <= itemlistNew.size() - 1; i++) {
+			System.out.println("Sorted List: " + itemlistNew.get(i));
 
-			if (listname.get(i).equals(itemlist2.get(i))) {
+			if (listname.get(i).equals(itemlistNew.get(i))) {
 				System.out.println("Items are in Descending order");
 				result = true;
 			} else {
