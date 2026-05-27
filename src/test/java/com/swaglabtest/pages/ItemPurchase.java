@@ -229,7 +229,7 @@ public class ItemPurchase {
 			listname.add(element.getText());
 		}
 		List<String> itemlistNew = new ArrayList<String>(listname);
-		Collections.sort(itemlistNew.reversed());
+		Collections.sort(itemlistNew,Collections.reverseOrder());
 		
 		for (int i = 0; i <= itemlistNew.size() - 1; i++) {
 			System.out.println("Sorted List: " + itemlistNew.get(i));
