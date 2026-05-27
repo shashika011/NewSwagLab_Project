@@ -3,6 +3,7 @@ package com.swaglabtest.pages;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
@@ -65,7 +67,7 @@ public class ItemPurchase {
 			By.xpath("//a[@id='item_5_title_link']/parent::div/following-sibling::div/button");
 	
 	
-	
+	private final By droxpwonSort=By.xpath("//select[@class='product_sort_container']");
 	
 	private final By shopcart = 
 			By.xpath("//*[@class='shopping_cart_link']");
@@ -177,5 +179,70 @@ public class ItemPurchase {
 		return shopping_cart_b.getText();
 	}
 	
+	public void dropDownSortAccending()
+	{
+		Select dropdown = new Select(wait.until(ExpectedConditions.elementToBeClickable(droxpwonSort)));
+		dropdown.selectByVisibleText("Name (A to Z)");
+	}
 	
+	public void dropDownSortDescending()
+	{
+		Select dropdown = new Select(wait.until(ExpectedConditions.elementToBeClickable(droxpwonSort)));
+		dropdown.selectByVisibleText("Name (Z to A)");
+	}
+	
+	public boolean listcollectionAscending()
+	{
+		boolean result = false;
+		List<WebElement> itemlist = driver.findElements(By.className("inventory_item_name"));
+		List<String> itemname = new ArrayList<>();
+		for (WebElement item : itemlist) {
+			itemname.add(item.getText());
+		}
+		System.out.println("Items in the List: " + itemname);
+		List<String> itemlist2 =new ArrayList<String>(itemname);
+		Collections.sort(itemlist2);
+		
+		for (int i = 0; i <= itemlist2.size() - 1; i++) 
+		{
+			System.out.println("Sorted List: " + itemlist2.get(i));
+			
+			if (itemname.get(i).equals(itemlist2.get(i))) 
+			{
+				System.out.println("Items are in Accending order");
+				result=true;
+			} else {
+				System.out.println("Items are not in Accending order");
+				result=false;
+				break;
+			}
+		}
+		return result;
+	}
+	
+	public boolean listcollectionDescending() {
+		boolean result = false;
+		List<WebElement> elements = driver.findElements(By.className("inventory_item_name"));
+		List<String> listname = new ArrayList<String>();
+
+		for (WebElement element : elements) {
+			listname.add(element.getText());
+		}
+		List<String> itemlist2 = new ArrayList<String>(listname);
+		Collections.sort(itemlist2.reversed());
+		for (int i = 0; i <= itemlist2.size() - 1; i++) {
+			System.out.println("Sorted List: " + itemlist2.get(i));
+
+			if (listname.get(i).equals(itemlist2.get(i))) {
+				System.out.println("Items are in Descending order");
+				result = true;
+			} else {
+				System.out.println("Items are not in Descending order");
+				result = false;
+				break;
+			}
+		}
+
+		return result;
+	}
 }
