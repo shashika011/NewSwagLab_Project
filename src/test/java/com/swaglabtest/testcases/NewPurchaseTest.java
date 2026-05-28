@@ -83,7 +83,6 @@ public class NewPurchaseTest extends BaseClass {
 	@Test(priority = 2)
 	public void sortOrderAscending()
 	{
-		purchase.dropDownSortAccending();
 		boolean result= purchase.listcollectionAscending();
 		Assert.assertEquals(result, true, "Items are not sorted in ascending order.");
 		
@@ -92,7 +91,6 @@ public class NewPurchaseTest extends BaseClass {
 	@Test(priority = 3)
 	public void sortOrderDescending()
 	{
-		purchase.dropDownSortDescending();
 		boolean result= purchase.listcollectionDescending();
 		Assert.assertEquals(result, true, "Items are not sorted in descending order.");
 		
