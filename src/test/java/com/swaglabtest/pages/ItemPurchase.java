@@ -179,21 +179,24 @@ public class ItemPurchase {
 		return shopping_cart_b.getText();
 	}
 	
-	public void dropDownSortAccending()
+	public void dropDownSelection(String selectedText)
 	{
 		Select dropdown = new Select(wait.until(ExpectedConditions.elementToBeClickable(droxpwonSort)));
-		dropdown.selectByVisibleText("Name (A to Z)");
+		dropdown.selectByVisibleText(selectedText);
 	}
 	
-	public void dropDownSortDescending()
+	public void dropDownSelection(int intID)
 	{
 		Select dropdown = new Select(wait.until(ExpectedConditions.elementToBeClickable(droxpwonSort)));
-		dropdown.selectByVisibleText("Name (Z to A)");
+		dropdown.selectByIndex(intID);
 	}
 	
 	public boolean listcollectionAscending()
 	{
 		boolean result = false;
+		
+		dropDownSelection("Name (A to Z)");
+		
 		List<WebElement> itemlist = driver.findElements(By.className("inventory_item_name"));
 		List<String> itemname = new ArrayList<>();
 		for (WebElement item : itemlist) {
@@ -222,6 +225,7 @@ public class ItemPurchase {
 	
 	public boolean listcollectionDescending() {
 		boolean result = false;
+		dropDownSelection("Name (Z to A)");
 		List<WebElement> elements = driver.findElements(By.className("inventory_item_name"));
 		List<String> listname = new ArrayList<String>();
 
