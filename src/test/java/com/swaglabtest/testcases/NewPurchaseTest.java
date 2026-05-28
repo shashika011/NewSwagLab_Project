@@ -102,7 +102,7 @@ public class NewPurchaseTest extends BaseClass {
 	 Assert.assertEquals(result, true, "Items prices are not sorted in ascending order.");
 	}
 	
-	
+	@Test(priority = 5)
 	public void highToLowerPriceListDown()
 	{
 	 boolean result=purchase.HightoLowerListDown();
