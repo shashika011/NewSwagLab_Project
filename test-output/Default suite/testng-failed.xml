@@ -3,19 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.swaglabtest.testcases.BrokenLinkTest">
+      <class name="com.swaglabtest.testcases.SeccurityTest">
         <methods>
-          <include name="brokenLinkTestLoginPage"/>
-          <include name="PageIninitialize"/>
           <include name="startTest"/>
           <include name="teardownSuite"/>
-          <include name="brokenLinkTestPurchasePage"/>
+          <include name="checkLogoutUser"/>
+          <include name="PageIninitialize"/>
           <include name="setupSuite"/>
           <include name="teardownClass"/>
-          <include name="setupClass"/>
           <include name="tearDownMethod"/>
+          <include name="setupClass"/>
         </methods>
-      </class> <!-- com.swaglabtest.testcases.BrokenLinkTest -->
+      </class> <!-- com.swaglabtest.testcases.SeccurityTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
