@@ -1,5 +1,9 @@
 package com.swaglabtest.pages;
 
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -36,4 +40,9 @@ public class MainLoginPage {
 		password.clear();
 	}
 
+	public List<WebElement> getAllLinks()
+	{
+	  List<WebElement> listelements=driver.findElements(By.tagName("link"));
+	  return listelements;
+	}
 }

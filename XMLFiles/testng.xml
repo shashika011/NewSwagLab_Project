@@ -10,6 +10,7 @@
 		<classes>
 			<class name="com.swaglabtest.testcases.MainPageLoginTest" />
 			<class name="com.swaglabtest.testcases.NewPurchaseTest" />
+			<class name="com.swaglabtest.testcases.BrokenLinkTest" />
 			</classes>
 	</test>
 	<test thread-count="5" name="Testfirefox">
@@ -17,6 +18,7 @@
 		<classes>
 			<class name="com.swaglabtest.testcases.MainPageLoginTest" />
 			<class name="com.swaglabtest.testcases.NewPurchaseTest" />
+			<class name="com.swaglabtest.testcases.BrokenLinkTest" />
 			</classes>
 	</test>
 </suite>
