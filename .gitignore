@@ -5,6 +5,7 @@ allure-results/
 allure-report/
 # Maven target
 target/
-
+#screen shots
+Screenshots/
 # Test outputs
 test-output/

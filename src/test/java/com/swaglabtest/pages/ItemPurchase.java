@@ -191,6 +191,12 @@ public class ItemPurchase {
 		dropdown.selectByIndex(intID);
 	}
 	
+	public List<WebElement> getAllLinks()
+	{
+	  List<WebElement> listelements=driver.findElements(By.tagName("link"));
+	  return listelements;
+	}
+	
 	public boolean listcollectionAscending()
 	{
 		boolean result = false;
@@ -251,37 +257,34 @@ public class ItemPurchase {
 		return result;
 	}
 	
-	public boolean lowerToHighListdown()
-	{
-	  dropDownSelection("Price (low to high)");
-	  boolean result=false;
-	  List<WebElement> priceElements = driver.findElements(By.className("inventory_item_price"));
-	  List<Double> actualPrices = new ArrayList<>();
-	  // Store actual prices
-	  for (WebElement price : priceElements) {
-	      // Remove $ symbol and convert to double
-	      String priceText = price.getText().replace("$", "");
-	      actualPrices.add(Double.parseDouble(priceText));
-	  }
+	public boolean lowerToHighListdown() {
+		dropDownSelection("Price (low to high)");
+		boolean result = false;
+		List<WebElement> priceElements = driver.findElements(By.className("inventory_item_price"));
+		List<Double> actualPrices = new ArrayList<>();
+		// Store actual prices
+		for (WebElement price : priceElements) {
+			// Remove $ symbol and convert to double
+			String priceText = price.getText().replace("$", "");
+			actualPrices.add(Double.parseDouble(priceText));
+		}
 
-	  // Create expected sorted list
-	  List<Double> expectedPrices = new ArrayList<>(actualPrices);
-	  Collections.sort(expectedPrices);
-	  for(int i=0;i<=expectedPrices.size()-1;i++)
-	  {
-		 
-		  if(actualPrices.get(i).equals(expectedPrices.get(i))) {
-		      System.out.println("Prices are sorted Lower to High");
-		      result=true;
-		  }
-		  else {
-		      System.out.println("Prices are NOT sorted correctly");
-		      result=false;
-		      break;
-		  }  
-	  }
-	  
-	 return result;  
+		// Create expected sorted list
+		List<Double> expectedPrices = new ArrayList<>(actualPrices);
+		Collections.sort(expectedPrices);
+		for (int i = 0; i <= expectedPrices.size() - 1; i++) {
+
+			if (actualPrices.get(i).equals(expectedPrices.get(i))) {
+				System.out.println("Prices are sorted Lower to High");
+				result = true;
+			} else {
+				System.out.println("Prices are NOT sorted correctly");
+				result = false;
+				break;
+			}
+		}
+
+		return result;
 	}
 	
 	
