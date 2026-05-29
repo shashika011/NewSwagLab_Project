@@ -75,6 +75,13 @@ public class ItemPurchase {
 			By.xpath("//*[@class='shopping_cart_badge']");
 	
 	
+	private final By hangbutton=
+			By.xpath("//button[@id=\"react-burger-menu-btn\"]");
+	
+	private final By logOut=
+			By.xpath("//a[@id=\"logout_sidebar_link\"]");
+	
+	
 	//---- Action Methods-----//
 	
 	
@@ -196,6 +203,19 @@ public class ItemPurchase {
 	  List<WebElement> listelements=driver.findElements(By.tagName("link"));
 	  return listelements;
 	}
+	
+	public void clickHangButton()
+	{
+		driver.findElement(hangbutton).click();
+		
+	}
+	
+	public void clickLogoutButton()
+	{
+		driver.findElement(logOut).click();
+		
+	}
+	
 	
 	public boolean listcollectionAscending()
 	{

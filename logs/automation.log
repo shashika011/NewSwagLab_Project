@@ -4986,3 +4986,599 @@ java.lang.AssertionError: The following asserts failed:
 2026-05-29 12:46:42 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
 2026-05-29 12:46:42 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
 2026-05-29 12:46:42 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:14:42 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\STZ\AppData\Local\Temp\testng-eclipse-920206305\testng-customsuite.xml
+
+2026-05-29 14:14:42 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:14:42 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:14:42 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:14:43 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:14:43 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:14:43 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2026-05-29 14:14:43 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:14:43 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:14:46 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:14:46 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:14:55 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:14:56 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:14:59 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:14:59 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:14:59 [main] ERROR com.swaglabtest.pages.BaseClass - Test Failed: checkLogoutUser
+java.lang.Error: Unresolved compilation problem: 
+	system cannot be resolved
+
+	at com.swaglabtest.testcases.SeccurityTest.checkLogoutUser(SeccurityTest.java:50) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.1.jar:7.10.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-05-29 14:14:59 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:15:00 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:15:00 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3dfe92ef: 94 ms
+2026-05-29 14:15:00 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@255ed8e4: 40 ms
+2026-05-29 14:15:00 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38d525aa: 13 ms
+2026-05-29 14:15:00 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4b691611: 8 ms
+2026-05-29 14:15:00 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@542c65d9: 6 ms
+2026-05-29 14:15:00 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@cdbe995: 0 ms
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 23 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 25 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-29 14:15:35 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\STZ\AppData\Local\Temp\testng-eclipse--1064820540\testng-customsuite.xml
+
+2026-05-29 14:15:35 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:15:36 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:15:36 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:15:36 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:15:36 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:15:36 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2026-05-29 14:15:36 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:15:36 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:15:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:15:39 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:15:46 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:15:47 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:15:49 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:15:49 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:15:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:15:50 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:15:50 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:15:51 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@704d3b00: 76 ms
+2026-05-29 14:15:51 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@21e484b: 0 ms
+2026-05-29 14:15:51 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@c318864: 20 ms
+2026-05-29 14:15:51 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4e4d0a0b: 7 ms
+2026-05-29 14:15:51 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6d420cdd: 4 ms
+2026-05-29 14:15:51 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@bd273b2: 0 ms
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-29 14:19:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\STZ\AppData\Local\Temp\testng-eclipse-1042908911\testng-customsuite.xml
+
+2026-05-29 14:19:06 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:19:07 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:19:07 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:19:07 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:19:07 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:19:07 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-05-29 14:19:07 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:19:07 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:19:09 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:19:10 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:19:14 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:19:14 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:19:17 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:19:17 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:19:17 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:19:18 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:19:18 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:19:18 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3866c96e: 124 ms
+2026-05-29 14:19:18 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@241fc278: 0 ms
+2026-05-29 14:19:18 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6d420cdd: 36 ms
+2026-05-29 14:19:18 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@144a5e6e: 12 ms
+2026-05-29 14:19:18 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5c5c7cc4: 7 ms
+2026-05-29 14:19:18 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6c27e700: 0 ms
+2026-05-29 14:23:50 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-05-29 14:23:50 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-05-29 14:23:50 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-05-29 14:23:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project\XMLFiles\testng.xml
+
+2026-05-29 14:23:51 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:23:52 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:23:52 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:23:52 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:23:52 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:23:52 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:23:52 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:23:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:23:54 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:24:08 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:24:09 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:24:12 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:24:12 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: UserLogingWithCredentials
+2026-05-29 14:24:12 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: UserLogingWithCredentials
+2026-05-29 14:24:12 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:24:12 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:24:12 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:24:13 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:24:13 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:24:25 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:24:25 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:24:28 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:24:28 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: newPurchasing
+2026-05-29 14:25:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: newPurchasing
+2026-05-29 14:25:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderAscending
+2026-05-29 14:25:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderAscending
+2026-05-29 14:25:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderDescending
+2026-05-29 14:25:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderDescending
+2026-05-29 14:25:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: lowerToHighPriceListDown
+2026-05-29 14:25:04 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: lowerToHighPriceListDown
+2026-05-29 14:25:04 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: highToLowerPriceListDown
+2026-05-29 14:25:04 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
+2026-05-29 14:25:04 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:25:04 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:25:04 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:25:06 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:25:06 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:25:13 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:25:14 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:25:16 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:25:16 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestLoginPage
+2026-05-29 14:25:18 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestLoginPage
+2026-05-29 14:25:18 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestPurchasePage
+2026-05-29 14:25:19 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestPurchasePage
+2026-05-29 14:25:20 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:25:20 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:25:20 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:25:21 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:25:21 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:25:35 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:25:35 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:25:37 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:25:37 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: VerifyWithoutLogin
+2026-05-29 14:25:38 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: VerifyWithoutLogin
+2026-05-29 14:25:38 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:25:38 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:25:38 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:25:39 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:25:39 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:25:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:25:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2026-05-29 14:25:40 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-05-29 14:25:43 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
+2026-05-29 14:25:43 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:25:50 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:25:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: UserLogingWithCredentials
+2026-05-29 14:25:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: UserLogingWithCredentials
+2026-05-29 14:25:51 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:25:51 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:25:51 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:25:51 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:25:51 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:25:56 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:25:56 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: newPurchasing
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: newPurchasing
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderAscending
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderAscending
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderDescending
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderDescending
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: lowerToHighPriceListDown
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: lowerToHighPriceListDown
+2026-05-29 14:26:32 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: highToLowerPriceListDown
+2026-05-29 14:26:33 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
+2026-05-29 14:26:34 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:26:34 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:26:34 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:26:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:26:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:26:39 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:26:39 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestLoginPage
+2026-05-29 14:26:42 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestLoginPage
+2026-05-29 14:26:42 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestPurchasePage
+2026-05-29 14:26:43 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestPurchasePage
+2026-05-29 14:26:44 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:26:44 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:26:44 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:26:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:26:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:26:49 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:26:49 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: VerifyWithoutLogin
+2026-05-29 14:26:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: VerifyWithoutLogin
+2026-05-29 14:26:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:26:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:26:52 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:26:52 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:33:28 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:33:31 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:33:31 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:33:31 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:33:32 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:33:32 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:33:32 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:33:56 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:34:03 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:34:03 [main] WARN  io.github.bonigarcia.wdm.WebDriverManager - There was an error managing chromedriver 148.0.7778.178 (No such host is known (storage.googleapis.com)) ... trying again using latest driver stored in cache
+2026-05-29 14:34:03 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:34:09 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:34:09 [main] ERROR io.github.bonigarcia.wdm.WebDriverManager - There was an error managing chromedriver 148.0.7778.178 (storage.googleapis.com)
+java.net.UnknownHostException: storage.googleapis.com
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:998) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1806) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1676) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.online.Downloader.downloadAndExtract(Downloader.java:136) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.online.Downloader.download(Downloader.java:91) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1273) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190) ~[webdrivermanager-5.9.2.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427) ~[webdrivermanager-5.9.2.jar:?]
+	at com.swaglabtest.utility.BrowserFactory.startApplication(BrowserFactory.java:24) ~[test-classes/:?]
+	at com.swaglabtest.pages.BaseClass.setupClass(BaseClass.java:100) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) ~[testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.1.jar:7.10.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.1.jar:7.10.1]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.1.jar:7.10.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.0.0.jar:3.0.0]
+2026-05-29 14:34:11 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:34:11 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:34:49 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:34:54 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:35:37 [main] INFO  org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://storage.googleapis.com:443
+2026-05-29 14:36:06 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:36:06 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:36:11 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:36:11 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: UserLogingWithCredentials
+2026-05-29 14:36:11 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: UserLogingWithCredentials
+2026-05-29 14:36:11 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:36:11 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:36:11 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:36:12 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:36:13 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:36:23 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:36:23 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:36:31 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:36:31 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: newPurchasing
+2026-05-29 14:37:05 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: newPurchasing
+2026-05-29 14:37:05 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderAscending
+2026-05-29 14:37:05 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderAscending
+2026-05-29 14:37:05 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderDescending
+2026-05-29 14:37:05 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderDescending
+2026-05-29 14:37:05 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: lowerToHighPriceListDown
+2026-05-29 14:37:06 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: lowerToHighPriceListDown
+2026-05-29 14:37:06 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: highToLowerPriceListDown
+2026-05-29 14:37:06 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
+2026-05-29 14:37:06 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:37:06 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:37:06 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:37:07 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:37:07 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:37:13 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:37:14 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:37:16 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:37:16 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: VerifyWithoutLogin
+2026-05-29 14:37:17 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: VerifyWithoutLogin
+2026-05-29 14:37:17 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:37:17 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:37:17 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:37:18 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:38:52 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-05-29 14:38:52 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-05-29 14:38:52 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-05-29 14:38:52 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project\XMLFiles\testng.xml
+
+2026-05-29 14:38:52 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:38:53 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:38:53 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:38:53 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:38:53 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:38:53 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:38:53 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:38:55 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:38:56 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:39:08 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:39:09 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:39:16 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:39:16 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: UserLogingWithCredentials
+2026-05-29 14:39:16 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: UserLogingWithCredentials
+2026-05-29 14:39:16 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:39:16 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:39:16 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:39:17 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:39:17 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:39:27 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:39:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:39:29 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:39:29 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: newPurchasing
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: newPurchasing
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderAscending
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderAscending
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderDescending
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderDescending
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: lowerToHighPriceListDown
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: lowerToHighPriceListDown
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: highToLowerPriceListDown
+2026-05-29 14:40:03 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
+2026-05-29 14:40:04 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:40:04 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:40:04 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:40:05 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:40:05 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:40:14 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:40:14 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:40:21 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:40:21 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestLoginPage
+2026-05-29 14:40:23 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestLoginPage
+2026-05-29 14:40:23 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestPurchasePage
+2026-05-29 14:40:24 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestPurchasePage
+2026-05-29 14:40:24 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:40:24 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:40:24 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:40:25 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:40:25 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:40:37 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:40:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:40:42 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:40:42 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: VerifyWithoutLogin
+2026-05-29 14:40:42 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: VerifyWithoutLogin
+2026-05-29 14:40:42 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:40:43 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:40:43 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:40:43 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:40:43 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:40:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:40:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+2026-05-29 14:40:44 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-05-29 14:40:47 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
+2026-05-29 14:40:47 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:40:54 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:40:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: UserLogingWithCredentials
+2026-05-29 14:40:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: UserLogingWithCredentials
+2026-05-29 14:40:55 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:40:55 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:40:55 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:40:55 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:40:55 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:41:01 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:41:01 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: newPurchasing
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: newPurchasing
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderAscending
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderAscending
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderDescending
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderDescending
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: lowerToHighPriceListDown
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: lowerToHighPriceListDown
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: highToLowerPriceListDown
+2026-05-29 14:41:34 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
+2026-05-29 14:41:36 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:41:36 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:41:36 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:41:36 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:41:36 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:41:43 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:41:43 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestLoginPage
+2026-05-29 14:41:46 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestLoginPage
+2026-05-29 14:41:46 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestPurchasePage
+2026-05-29 14:41:47 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestPurchasePage
+2026-05-29 14:41:48 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:41:48 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:41:48 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: firefox
+2026-05-29 14:41:48 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 150)
+2026-05-29 14:41:48 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\STZ\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-05-29 14:41:53 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: firefox
+2026-05-29 14:41:53 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: VerifyWithoutLogin
+2026-05-29 14:41:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: VerifyWithoutLogin
+2026-05-29 14:41:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:41:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:41:55 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:41:56 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed
+2026-05-29 14:42:28 [main] INFO  com.swaglabtest.pages.BaseClass - Starting Test Suite setup...
+2026-05-29 14:42:28 [main] INFO  com.swaglabtest.pages.BaseClass - ExcelDataProvider initialized
+2026-05-29 14:42:28 [main] INFO  com.swaglabtest.pages.BaseClass - ConfigProvider initialized
+2026-05-29 14:42:29 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Reports XML configuration loaded
+2026-05-29 14:42:29 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report initialized at: C:\Users\STZ\EclipsWorkspace\NewSwagLab_Project/Reports/AutomationReport.html
+2026-05-29 14:42:29 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:42:29 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:42:31 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:42:31 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:42:38 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:42:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:42:47 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:42:47 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestLoginPage
+2026-05-29 14:42:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestLoginPage
+2026-05-29 14:42:50 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: brokenLinkTestPurchasePage
+2026-05-29 14:42:52 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: brokenLinkTestPurchasePage
+2026-05-29 14:42:52 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:42:52 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:42:52 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:42:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:42:54 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:43:03 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:43:03 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:43:06 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:43:06 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: UserLogingWithCredentials
+2026-05-29 14:43:06 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: UserLogingWithCredentials
+2026-05-29 14:43:06 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:43:06 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:43:06 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:43:07 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:43:07 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:43:15 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:43:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:43:21 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:43:21 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: newPurchasing
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: newPurchasing
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderAscending
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderAscending
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: sortOrderDescending
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: sortOrderDescending
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: lowerToHighPriceListDown
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: lowerToHighPriceListDown
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: highToLowerPriceListDown
+2026-05-29 14:43:54 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: highToLowerPriceListDown
+2026-05-29 14:43:55 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:43:55 [main] INFO  com.swaglabtest.pages.BaseClass - Initializing browser...
+2026-05-29 14:43:55 [main] INFO  com.swaglabtest.pages.BaseClass - Browser selected: chrome
+2026-05-29 14:43:56 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-29 14:43:56 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-29 14:44:08 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-05-29 14:44:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\STZ\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-29 14:44:10 [main] INFO  com.swaglabtest.pages.BaseClass - Browser initialized successfully: chrome
+2026-05-29 14:44:10 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: VerifyWithoutLogin
+2026-05-29 14:44:11 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: VerifyWithoutLogin
+2026-05-29 14:44:11 [main] INFO  com.swaglabtest.pages.BaseClass - Test started: checkLogoutUser
+2026-05-29 14:44:11 [main] INFO  com.swaglabtest.pages.BaseClass - Test Passed: checkLogoutUser
+2026-05-29 14:44:12 [main] INFO  com.swaglabtest.pages.BaseClass - Browser closed for class
+2026-05-29 14:44:12 [main] INFO  com.swaglabtest.pages.BaseClass - Extent Report flushed

@@ -1,3 +1,4 @@
+com\swaglabtest\testcases\SeccurityTest.class
 com\swaglabtest\utility\ConfigProvider.class
 com\swaglabtest\pages\MainLoginPage.class
 com\swaglabtest\utility\BrowserFactory.class
