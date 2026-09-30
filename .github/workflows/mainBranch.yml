@@ -11,6 +11,10 @@ permissions:
   id-token: write
 
 jobs:
+
+  # =========================
+  # BUILD ALLURE REPORT
+  # =========================
   build:
     runs-on: ubuntu-latest
 
@@ -36,18 +40,48 @@ jobs:
         run: mvn clean test
         continue-on-error: true
 
+      - name: Check Allure Results
+        if: always()
+        run: |
+          echo "Checking target/allure-results..."
+          ls -la target || true
+          ls -la target/allure-results || true
+
       - name: Generate Allure Report
-        run: allure generate target/allure-results --clean -o allure-report
+        run: |
+          allure generate target/allure-results \
+            --clean \
+            -o allure-report
+
+      - name: Check Generated Report
+        run: |
+          echo "Checking allure-report..."
+          ls -la allure-report
+          test -f allure-report/index.html
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: allure-report
 
+
+  # =========================
+  # DEPLOY TO GITHUB PAGES
+  # =========================
   deploy:
     needs: build
     runs-on: ubuntu-latest
 
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
