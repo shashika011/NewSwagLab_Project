@@ -1,20 +1,16 @@
 name: Build and Deploy Allure Report
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 permissions:
-contents: read
-pages: write
-id-token: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-
-  # =========================
-  # BUILD ALLURE REPORT
-  # =========================
   build:
     runs-on: ubuntu-latest
 
@@ -40,101 +36,18 @@ jobs:
         run: mvn clean test
         continue-on-error: true
 
-      - name: Check Allure Results
-        if: always()
-        run: |
-          echo "Checking target/allure-results..."
-          ls -la target || true
-          ls -la target/allure-results || true
-
       - name: Generate Allure Report
-        run: |
-          allure generate target/allure-results \
-            --clean \
-            -o allure-report
-
-      - name: Check Generated Report
-        run: |
-          echo "Checking allure-report..."
-          ls -la allure-report
-          test -f allure-report/index.html
+        run: allure generate target/allure-results --clean -o allure-report
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: allure-report
 
-
-  # =========================
-  # DEPLOY TO GITHUB PAGES
-  # =========================
   deploy:
     needs: build
     runs-on: ubuntu-latest
 
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
-=======
-build:
-runs-on: ubuntu-latest
-
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
-
-  - name: Setup Java
-    uses: actions/setup-java@v4
-    with:
-      distribution: temurin
-      java-version: 17
-
-  - name: Setup Node
-    uses: actions/setup-node@v4
-    with:
-      node-version: 20
-
-  - name: Install Allure CLI
-    run: npm install -g allure-commandline
-
-  - name: Run Tests
-    run: mvn clean test
-    continue-on-error: true
-
-  - name: Generate Allure Report
-    run: |
-      allure generate target/allure-results \
-        --clean \
-        -o allure-report
-
-  - name: Configure GitHub Pages
-    uses: actions/configure-pages@v5
-
-  - name: Upload Pages Artifact
-    uses: actions/upload-pages-artifact@v3
-    with:
-      path: allure-report
-
-deploy:
-needs: build
-runs-on: ubuntu-latest
-
-environment:
-  name: github-pages
-  url: ${{ steps.deployment.outputs.page_url }}
-
-steps:
-  - name: Deploy to GitHub Pages
-    id: deployment
-    uses: actions/deploy-pages@v4
-
